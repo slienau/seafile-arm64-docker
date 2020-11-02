@@ -1,0 +1,6 @@
+FROM hanwckf/seafile:latest
+
+COPY docker-buildx/init-alpine.sh /opt
+COPY templates /templates
+COPY services /services
+COPY scripts_7.1 /scripts
